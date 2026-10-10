@@ -35,8 +35,7 @@ npm run dev          # open http://localhost:5173
 **Offline test:** run `npm run build && npm run preview`, open the page once, turn off Wi-Fi and reload.
 
 ## Figma
-- **Prototype (same as the app):** https://www.figma.com/design/wUFmSxo7M7PP4JNWRq3zzD?node-id=19-2. Press Present (▶) to click through the 6 screens. They are also in `figma/prototype.pdf` and `screens/figma/`.
-- **First concept deck (older):** https://www.figma.com/design/u4yHDk2MyfrMaMNrn98ZEo/Metro-Hacks-%E2%80%93-PS-08-One-City--One-Journey?node-id=0-1. Its example trip and fare-split rule are different from the app.
+- **First concept :** https://www.figma.com/design/u4yHDk2MyfrMaMNrn98ZEo/Metro-Hacks-%E2%80%93-PS-08-One-City--One-Journey?node-id=0-1. Its example trip and fare-split rule are different from the app.
 
 ## How it works
 - **Data on the phone (about 1 MB):** the public AMTS + BRTS timetables (about 14,000 trips) and the 4 metro lines (53 stations).
