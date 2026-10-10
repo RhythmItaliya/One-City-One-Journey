@@ -1,0 +1,30 @@
+{
+  "_note": "Hand-copied from research/02 + 03 (Oct 2026). 'tag' = VERIFIED / LIKELY / ASSUMED. Say 'assumption' in the demo for anything not VERIFIED.",
+  "lines": {
+    "blue":   {"name": "Line 1 Blue, Vastral Gam - Thaltej Gam", "km": 21.1, "end_to_end_min": 45, "first": "06:20", "last": "23:00",
+               "headway_min": {"weekday_peak": 7, "weekday_offpeak": 10, "sat_peak": 10, "sat_offpeak": 12, "sunday": 12},
+               "peak_hours": ["08:00-11:00", "17:00-20:00"], "tag": "VERIFIED (Jan 2026 sheet + 18 May 2026 extension)"},
+    "red":    {"name": "Line 2 Red, APMC - Motera Stadium / Koteshwar Road", "km": 20.2, "end_to_end_min": 35, "first": "06:16", "last_from_apmc": "23:10",
+               "headway_min": {"all_day": 12}, "tag": "VERIFIED"},
+    "yellow": {"name": "Line 3 Yellow, Koteshwar Road / Motera - Mahatma Mandir (through trains from APMC)", "km": 20.87, "end_to_end_min": 43,
+               "first": "07:33", "last_from_mahatma_mandir": "21:00", "last_from_koteshwar_to_mahatma_mandir": "21:20",
+               "headway_min": {"morning_peak": 14, "midday": 24}, "apmc_to_mahatma_mandir_min": 78, "tag": "LIKELY (headways from Jan 2026 sheet; last trains from 18 May 2026 news)"},
+    "violet": {"name": "Line 4 Violet, GNLU - GIFT City", "km": 5.8, "end_to_end_min": 6,
+               "service_windows": ["07:36-10:18", "16:06-19:13"], "headway_min": {"in_window": 53}, "tag": "VERIFIED (Jan 2026 sheet)"}
+  },
+  "train_capacity": {"cars": 3, "normal": 450, "crush_6_per_m2": 764, "tag": "VERIFIED (Phase-2 DPR)"},
+  "avg_station_dwell_s": {"value": 30, "tag": "ASSUMED"},
+  "fares_inr": {"min": 5, "phase1_max": 25, "apmc_to_gift_city": 35, "tag": "LIKELY"},
+  "ridership": {"avg_daily_jan_2026": 153871, "tag": "VERIFIED",
+                "events": {"coldplay_25jan2025_day": 213735, "t20wc_18feb2026": 221066, "ipl_30apr2026_record": 225390}},
+  "bus_capacity": {"amts_standard": {"seated": 40, "total": 70, "tag": "ASSUMED"},
+                   "brts_janmarg": {"seated": 35, "total": 80, "tag": "ASSUMED"},
+                   "ggtsl_ebus_9m": {"seated": 25, "total": 38, "tag": "VERIFIED"}},
+  "walk_speed_m_per_min": {"value": 75, "tag": "ASSUMED (4.5 km/h)"},
+  "auto_rickshaw_fare": {"per_km": 20, "min_first_1_25km": 25, "night_surcharge_23_06": 0.25, "tag": "UNKNOWN (unofficial site)"},
+  "known_gaps": [
+    "Gandhinagar GGTSL e-buses (70 buses, 18 routes) have NO public timetable data; 11 Gandhinagar metro stations have no bus stop within 600 m in our data.",
+    "Exact metro timetable after 18 May 2026 is image-only; headways above are averages.",
+    "Station exits: only 9 entrances are mapped in OpenStreetMap."
+  ]
+}
