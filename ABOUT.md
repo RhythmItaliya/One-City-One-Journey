@@ -43,6 +43,8 @@ From **Naroda Gam** to **Shivranjani**, leaving at **18:30**:
 
 Total time: 74 minutes. **One fare: ₹30.** Three separate tickets would cost ₹40.
 
+This is option 2 of the 3 choices the app shows. We explain it here because it uses all three operators. The app selects option 1 first (BRTS 8D-NB → Metro → BRTS 9U-VM, 73 minutes, also ₹30), so the app screenshots show that one.
+
 ## Fair split of the money (bonus)
 If you pay once, how does each operator get its money? Our rule:
 1. Each operator starts with the price of its own part of the trip.
@@ -92,3 +94,4 @@ Inside a metro tunnel the phone often has no signal. Our app keeps all the timet
 - **Run the app:** see [README.md](README.md).
 - **Figma prototype (same as the app):** https://www.figma.com/design/wUFmSxo7M7PP4JNWRq3zzD?node-id=19-2, page "4 One City, One Journey (PS-08)".
 - **First idea in Figma (older, a different example trip):** https://www.figma.com/design/u4yHDk2MyfrMaMNrn98ZEo/Metro-Hacks-%E2%80%93-PS-08-One-City--One-Journey?node-id=0-1
+- **Pictures:** `screens/app/` (the real app, on a computer and a phone), `screens/figma/` (the 6 Figma screens) and `figma/prototype.pdf`.
