@@ -43,19 +43,6 @@ npm run dev          # open http://localhost:5173
 - **Planner:** it finds the next real bus to a metro station, the best metro route, the next bus after it and the walks in between.
 - **Fair split:** each operator keeps the fare for its own part. The rider gets ₹5 off per change, and each operator gives up a share of that by km. 2% goes to the ticket company.
 
-## AI we used
-- **There is no AI inside the app.** It is a normal search algorithm, so it is fast, works offline and always gives the same answer.
-- **We built it with AI:** Claude Code (Claude Opus 5.5) wrote the code and the docs. A Claude agent with the Figma MCP made the Figma screens. We checked the work by running the app.
-- **Main prompts (short):**
-  1. Before the event: "Collect the public bus and metro data, and make an offline data pack and an offline app shell."
-  2. On the train: "Read the brief, pick a problem and build it, ready to submit, with a Figma prototype." The result was PS-08.
-  3. The Figma agent: "Make 6 clickable screens with the real sample-trip numbers, and check every screen."
-  4. "Make a clean submission: the app, a simple README and ABOUT, the prompts and the skill files."
-- **Skill files:**
-  - `.claude/skills/one-journey/SKILL.md`: how the planner works.
-  - `.claude/skills/figma-prototype/SKILL.md`: how the Figma was made.
-  - `CLAUDE.md`: the project rules.
-
 ## Honest limits
 - Bus times come from the timetable, not live GPS.
 - Fares are our estimates. The ₹5 discount and the 2% fee are our proposals.
