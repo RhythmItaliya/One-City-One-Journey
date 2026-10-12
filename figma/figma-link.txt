@@ -1,0 +1,18 @@
+One City, One Journey (PS-08) - Figma prototype
+Made by Rhythm Italiya - ritaliya2003@gmail.com
+
+Figma prototype (matches the app):
+https://www.figma.com/design/wUFmSxo7M7PP4JNWRq3zzD?node-id=19-2
+
+How to view it:
+1. Open the link above. It opens the page "4 One City, One Journey (PS-08)".
+2. Press Present (the play button, top right) to click through the 6 frames:
+   1 Problem -> 2 Plan -> 3 Options -> 4 Journey -> 5 Fair split -> 6 Impact + PPP
+
+If you cannot open the link, the same 6 frames are in this folder:
+- figma/prototype.pdf (all 6 frames, in order)
+- screens/figma/*.png (one image per frame)
+
+First concept deck (made from an early plan; its example trip, Gomtipur Darwaja -> ISRO,
+its fare-split rule and some screens are different from the app):
+https://www.figma.com/design/u4yHDk2MyfrMaMNrn98ZEo/Metro-Hacks-%E2%80%93-PS-08-One-City--One-Journey?node-id=0-1

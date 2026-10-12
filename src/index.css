@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+/* System font stack only — no web fonts, nothing fetched at runtime. */
+@theme {
+  --font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans", "Helvetica Neue", Arial, sans-serif;
+}
+
+html, body, #root { height: 100%; }
+body { @apply bg-slate-50 text-slate-900 antialiased; }
